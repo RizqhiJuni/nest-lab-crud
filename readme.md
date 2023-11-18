@@ -1,4 +1,4 @@
-# Lab Backend Developer - Laboratorium Informatika, Universitas Muhammadiyah Makassar 
+# Laboratorium Informatika, Universitas Muhammadiyah Makassar 
 
 # Panduan Pembuatan Backend REST API untuk Aplikasi Blog "Median"
 
