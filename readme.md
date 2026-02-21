@@ -181,3 +181,10 @@ Sebelum memulai, pastikan kamu sudah menginstal:
 - [Prisma Documentation](https://www.prisma.io/docs/)
 - [Swagger/OpenAPI](https://swagger.io/)
 - [Passport.js](https://www.passportjs.org/)
+
+---
+
+### ⚠️ Catatan Teknis (Database & Docker)
+Karena instalasi **Docker Desktop** bikin laptop saya *blackscreen* terus dan harus di-*recovery*, untuk tugas ini saya tidak pakai Docker. Sebagai gantinya, saya pakai **PostgreSQL Native** yang diinstal langsung di Windows.
+
+Semua konfigurasi (user, password, port, dan db name) **disamakan persis** sama instruksi di panduan, jadi tidak ada perubahan di sisi kode program.
