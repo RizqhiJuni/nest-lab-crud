@@ -149,21 +149,21 @@ Sebelum memulai, pastikan kamu sudah menginstal:
 - [x] **📋 [Lihat detail checklist →](./chapter-3/README.md#-laporan-praktikum--chapter-3)**
 
 ### Chapter 4 — Authentication (JWT & Bcrypt)
-- [ ] Setup Auth module dengan Passport & JWT
-- [ ] Membuat endpoint `POST /auth/login`
-- [ ] Membuat JWT Strategy & Auth Guard
-- [ ] Melindungi endpoint Users dengan `@UseGuards`
-- [ ] Integrasi Bearer Auth di Swagger
-- [ ] Hashing password dengan bcrypt
-- [ ] Update login untuk bcrypt
-- [ ] **📋 [Lihat detail checklist →](./chapter-4/README.md#-laporan-praktikum--chapter-4)**
+- [x] Setup Auth module dengan Passport & JWT
+- [x] Membuat endpoint `POST /auth/login`
+- [x] Membuat JWT Strategy & Auth Guard
+- [x] Melindungi endpoint Users dengan `@UseGuards`
+- [x] Integrasi Bearer Auth di Swagger
+- [x] Hashing password dengan bcrypt
+- [x] Update login untuk bcrypt
+- [x] **📋 [Lihat detail checklist →](./chapter-4/README.md#-laporan-praktikum--chapter-4)**
 
 ### 🏁 Status Keseluruhan
 - [x] **Chapter 1 selesai**
 - [x] **Chapter 2 selesai**
 - [x] **Chapter 3 selesai**
-- [ ] **Chapter 4 selesai**
-- [ ] **🎓 SEMUA CHAPTER SELESAI — Praktikum telah diselesaikan seluruhnya**
+- [x] **Chapter 4 selesai**
+- [x] **🎓 SEMUA CHAPTER SELESAI — Praktikum telah diselesaikan seluruhnya**
 
 | Item | Keterangan |
 |------|------------|
