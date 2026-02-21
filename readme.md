@@ -141,12 +141,12 @@ Sebelum memulai, pastikan kamu sudah menginstal:
 - [x] **📋 [Lihat detail checklist →](./chapter-2/README.md#-laporan-praktikum--chapter-2)**
 
 ### Chapter 3 — Data Relasional & User Management
-- [ ] Membuat model `User` dan relasi one-to-many dengan `Article`
-- [ ] Migrasi dan seed data user
-- [ ] Implementasi CRUD Users (5 endpoint)
-- [ ] Menyembunyikan password dengan `@Exclude()` & `ClassSerializerInterceptor`
-- [ ] Menampilkan relasi author di response Article
-- [ ] **📋 [Lihat detail checklist →](./chapter-3/README.md#-laporan-praktikum--chapter-3)**
+- [x] Membuat model `User` dan relasi one-to-many dengan `Article`
+- [x] Migrasi dan seed data user
+- [x] Implementasi CRUD Users (5 endpoint)
+- [x] Menyembunyikan password dengan `@Exclude()` & `ClassSerializerInterceptor`
+- [x] Menampilkan relasi author di response Article
+- [x] **📋 [Lihat detail checklist →](./chapter-3/README.md#-laporan-praktikum--chapter-3)**
 
 ### Chapter 4 — Authentication (JWT & Bcrypt)
 - [ ] Setup Auth module dengan Passport & JWT
@@ -161,7 +161,7 @@ Sebelum memulai, pastikan kamu sudah menginstal:
 ### 🏁 Status Keseluruhan
 - [x] **Chapter 1 selesai**
 - [x] **Chapter 2 selesai**
-- [ ] **Chapter 3 selesai**
+- [x] **Chapter 3 selesai**
 - [ ] **Chapter 4 selesai**
 - [ ] **🎓 SEMUA CHAPTER SELESAI — Praktikum telah diselesaikan seluruhnya**
 

@@ -11,7 +11,15 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ArticleEntity = void 0;
 const swagger_1 = require("@nestjs/swagger");
+const user_entity_1 = require("../../users/entities/user.entity");
 class ArticleEntity {
+    constructor(partial) {
+        const { author, ...data } = partial;
+        Object.assign(this, data);
+        if (author) {
+            this.author = new user_entity_1.UserEntity(author);
+        }
+    }
     id;
     title;
     description;
@@ -19,6 +27,8 @@ class ArticleEntity {
     published;
     createdAt;
     updatedAt;
+    authorId;
+    author;
 }
 exports.ArticleEntity = ArticleEntity;
 __decorate([
@@ -49,4 +59,12 @@ __decorate([
     (0, swagger_1.ApiProperty)(),
     __metadata("design:type", Date)
 ], ArticleEntity.prototype, "updatedAt", void 0);
+__decorate([
+    (0, swagger_1.ApiProperty)({ required: false, nullable: true }),
+    __metadata("design:type", Object)
+], ArticleEntity.prototype, "authorId", void 0);
+__decorate([
+    (0, swagger_1.ApiProperty)({ required: false, type: user_entity_1.UserEntity }),
+    __metadata("design:type", user_entity_1.UserEntity)
+], ArticleEntity.prototype, "author", void 0);
 //# sourceMappingURL=article.entity.js.map
