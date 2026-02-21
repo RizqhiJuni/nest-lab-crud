@@ -120,25 +120,25 @@ Sebelum memulai, pastikan kamu sudah menginstal:
 > Centang chapter yang sudah selesai dikerjakan. Detail checklist ada di masing-masing chapter.
 
 ### Chapter 1 — Membangun REST API
-- [ ] Persiapan lingkungan (Node.js, Docker, VS Code)
-- [ ] Setup proyek NestJS
-- [ ] Setup database PostgreSQL (Docker)
-- [ ] Setup Prisma (install, init, schema)
-- [ ] Model data & migrasi database
-- [ ] Seed database dengan data awal
-- [ ] Membuat Prisma Service & Module
-- [ ] Setup Swagger
-- [ ] Implementasi CRUD Articles (6 endpoint)
-- [ ] Konfigurasi Swagger response types
-- [ ] **📋 [Lihat detail checklist →](./chapter-1/README.md#-laporan-praktikum--chapter-1)**
+- [x] Persiapan lingkungan (Node.js, ~~Docker~~→PostgreSQL Native, VS Code)
+- [x] Setup proyek NestJS
+- [x] Setup database PostgreSQL (~~Docker~~ → PostgreSQL Native, konfigurasi sama)
+- [x] Setup Prisma (install, init, schema)
+- [x] Model data & migrasi database
+- [x] Seed database dengan data awal
+- [x] Membuat Prisma Service & Module
+- [x] Setup Swagger
+- [x] Implementasi CRUD Articles (6 endpoint)
+- [x] Konfigurasi Swagger response types
+- [x] **📋 [Lihat detail checklist →](./chapter-1/README.md#-laporan-praktikum--chapter-1)**
 
 ### Chapter 2 — Validasi Input & Error Handling
-- [ ] Validasi input dengan `ValidationPipe` & `class-validator`
-- [ ] Whitelist filtering (buang field yang tidak diinginkan)
-- [ ] Transformasi parameter URL dengan `ParseIntPipe`
-- [ ] Error handling dengan `NotFoundException`
-- [ ] Membuat `PrismaClientExceptionFilter` (P2002, P2025)
-- [ ] **📋 [Lihat detail checklist →](./chapter-2/README.md#-laporan-praktikum--chapter-2)**
+- [x] Validasi input dengan `ValidationPipe` & `class-validator`
+- [x] Whitelist filtering (buang field yang tidak diinginkan)
+- [x] Transformasi parameter URL dengan `ParseIntPipe`
+- [x] Error handling dengan `NotFoundException`
+- [x] Membuat `PrismaClientExceptionFilter` (P2002, P2025)
+- [x] **📋 [Lihat detail checklist →](./chapter-2/README.md#-laporan-praktikum--chapter-2)**
 
 ### Chapter 3 — Data Relasional & User Management
 - [ ] Membuat model `User` dan relasi one-to-many dengan `Article`
@@ -159,16 +159,16 @@ Sebelum memulai, pastikan kamu sudah menginstal:
 - [ ] **📋 [Lihat detail checklist →](./chapter-4/README.md#-laporan-praktikum--chapter-4)**
 
 ### 🏁 Status Keseluruhan
-- [ ] **Chapter 1 selesai**
-- [ ] **Chapter 2 selesai**
+- [x] **Chapter 1 selesai**
+- [x] **Chapter 2 selesai**
 - [ ] **Chapter 3 selesai**
 - [ ] **Chapter 4 selesai**
 - [ ] **🎓 SEMUA CHAPTER SELESAI — Praktikum telah diselesaikan seluruhnya**
 
 | Item | Keterangan |
 |------|------------|
-| Nama | _________________________ |
-| NIM | _________________________ |
+| Nama | Rizqhi Juni Setiawan |
+| NIM | 105841105621 |
 | Tanggal Mulai | _________________________ |
 | Tanggal Selesai | _________________________ |
 | Tanda Tangan | _________________________ |
